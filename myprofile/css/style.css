@@ -1,0 +1,139 @@
+@charset "utf-8"
+
+*,
+::before
+::after  {
+    box-sizing: border-box;
+    
+}
+
+.wrapper {
+    width: 1100px;
+    margin: 0 auto;
+    
+    font-family: 'Noto Serif JP', serif;
+    
+}
+
+/* ヘッダー設定 */
+header {
+    border-top-width: 0;
+    background-image: url(../images/headerbrooklyn.jpg);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-size: cover;
+    color: white;
+    
+    font-family: 'Brawler', serif;
+    
+}
+
+/* ヘッダー終了 */
+
+body {
+    background-color: #e6beaa;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+
+    background-image: url(../images/bgyellowcab.jpg);
+    background-size: cover;
+    
+    
+
+    
+}
+
+.flex img {
+    margin-top: 1em;
+    margin-right: 1em;
+    padding-left: 1em;
+}
+
+.second {
+    width: 1000px;
+    padding-left: 1em;
+}
+
+
+.secondsection {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+    background-image: url(../images/backgroundmanhattan2.jpg);
+    background-size: cover;
+}
+
+.secondimages {
+    margin-top: 7em;
+    margin-left: 2em;
+}
+
+.list {
+    list-style-position: inside;
+}
+
+.third {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.thirdsection1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.thirdimages {
+    padding-right: 1em;
+    padding-top: 1em;
+    margin-top: 7em;
+    margin-right: 2em;
+}
+
+.thirdimages2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.final {
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.recommend {
+    background-image: url(../images/backgroundvessel1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer {
+    background-image: url(../images/statue2.png);
+    background-size: contain;
+    padding-top: 10px;
+    
+}
+
+h2 {
+    padding: 5px 5px;
+    border-bottom: 3px dashed #339900;
+}
+
+h2:before {
+    content: '';
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    background-image: url(../images/statue2.png);
+    background-size: cover;
+    margin-right: 10px;
+}
